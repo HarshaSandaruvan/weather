@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+
+#body {
+    background-color: #cfefd4b4;
+}
+
+
+.date-select {
+    position: absolute;
+    top: 15px;
+    right: 17rem;
+}
+.outer-section {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 18px -3px rgb(22, 21, 22);
+      -moz-box-shadow: 7px 7px 18px -3px rgb(0, 0, 0);
+      box-shadow: 7px 7px 18px -3px rgb(15, 14, 15);
+}
+
+
+
+#head-line {
+    font-size: x-large;
+    text-align: center;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#event {
+    font-size: large;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#areas {
+    font-size: large;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.txt {
+    font-size: medium;
+    color: black;
+    font-weight: 300;
+    font-family: 'Playfair', serif;
+    text-align: justify;
+}
