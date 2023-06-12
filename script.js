@@ -118,6 +118,9 @@ function mainApiCall(loction) {
         method: "GET",
         success: function (resp) {
             maniDeatils(resp);
+        },
+         error: function (xhr, status, error) {
+            alert("Please Check your location !");
         }
     })
     $.ajax({
@@ -125,6 +128,9 @@ function mainApiCall(loction) {
         method: "GET",
         success: function (resp) {
             sunTime(resp);
+        },
+         error: function (xhr, status, error) {
+            alert("Please Check your location !");
         }
     })
     $.ajax({
@@ -132,6 +138,9 @@ function mainApiCall(loction) {
         method: "GET",
         success: function (resp) {
             hourTemp(resp);
+        },
+         error: function (xhr, status, error) {
+            alert("Please Check your location !");
         }
     })
 }
